@@ -9,4 +9,7 @@ FROM mcr.microsoft.com/windows/servercore:ltsc2019
 RUN dism.exe /online /enable-feature /all /featurename:iis-webserver /NoRestart
 
 # Creates an HTML file and adds content to this file.
+
 RUN echo "Welcome to SCA Cloud School Application , this is my first assessment" > c:\inetpub\wwwroot\index.html
+RUN echo "Welcome to SCA Cloud School Application" > c:\inetpub\wwwroot\index.html
+
