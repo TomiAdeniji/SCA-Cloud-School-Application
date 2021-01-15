@@ -7,4 +7,5 @@
  docker run -d image-name
  Step 3 Check the IP address where the container created is located using the docker exec command such as below:
  docker exec container-name powershell.exe ipconfig
- This shows you the IPv4 address wh
+ This shows you the IPv4 address that the webpage runs on for viewing.
+ 
