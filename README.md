@@ -9,3 +9,7 @@
  docker exec container-name powershell.exe ipconfig
  This shows you the IPv4 address that the webpage runs on for viewing.
  
+ This was done on a windows container.
+ 
+ Link to docker hub repository https://hub.docker.com/repository/docker/tomiadeniji/scaapplication
+ 
